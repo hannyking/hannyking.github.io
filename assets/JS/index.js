@@ -24,10 +24,10 @@ window.addEventListener("scroll", () => {
 // music player
 
 const overlay = document.querySelectorAll(".overlay")
-var audio1 = new Audio(`/assets/music/GOT.mp3`);
-var audio2 = new Audio(`/assets/music/GOW.mp3`);
-var audio3 = new Audio(`/assets/music/AOE2.mp3`);
-var audio4 = new Audio(`/assets/music/AOT.mp3`);
+var audio1 = new Audio(`./assets/music/GOT.mp3`);
+var audio2 = new Audio(`./assets/music/GOW.mp3`);
+var audio3 = new Audio(`./assets/music/AOE2.mp3`);
+var audio4 = new Audio(`./assets/music/AOT.mp3`);
 
 for (let i = 0; i < overlay.length; i++) {
   if (i === 0) {
